@@ -27,3 +27,42 @@ code {
   color: white;
   padding: 20px;
 }
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.meme--form {
+  display: grid;
+  grid-template: 40px 40px /1fr 1fr;
+  gap: 17px;
+  padding: 36px;
+}
+.meme--input {
+  border-radius: 5px;
+  border: 1px solid rgb(190, 190, 190);
+  text-indent: 5px;
+}
+.meme--submit {
+  grid-column: 1 / -1;
+  background-image: linear-gradient(
+    to right,
+    rgb(89, 0, 124),
+    rgb(201, 22, 255)
+  );
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
